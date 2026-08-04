@@ -1,0 +1,38 @@
+# PI 官方仓库（独立 clone，不纳入本项目）
+# 获取方式见 README.md
+pi/
+
+# IDE / 工具本地文件
+.zcode/
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+*.log
+npm-debug.log*
+
+# 编译产物
+*.js
+*.js.map
+*.d.ts
+!experiments/**/*.js
+!playground/**/*.js
+dist/
+build/
+
+# 环境变量与密钥（安全：永不提交）
+.env
+.env.*
+*.key
+*.pem
+auth.json
+
+# PI 运行时产物（会话、记忆等本地状态）
+# 注意：这些通常在 ~/.pi/ 下，但如果项目内有也排除
+**/.pi/sessions/
+**/.pi/agent/

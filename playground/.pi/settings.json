@@ -1,0 +1,8 @@
+{
+  "defaultThinkingLevel": "low",
+  "compaction": {
+    "enabled": true,
+    "keepRecentTokens": 10000
+  },
+  "enableSkillCommands": true
+}
