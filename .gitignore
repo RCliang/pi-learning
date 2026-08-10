@@ -2,6 +2,10 @@
 # 获取方式见 README.md
 pi/
 
+# 第三方参考实现（独立 clone，不纳入本项目）
+# 如 pi-memory: https://github.com/jayzeng/pi-memory
+references/
+
 # IDE / 工具本地文件
 .zcode/
 .vscode/
